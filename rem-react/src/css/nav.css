@@ -1,0 +1,27 @@
+.floating-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1001;
+}
+.floating-menu p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.floating-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.floating-menu button {
+  margin-top: 10px;
+}
